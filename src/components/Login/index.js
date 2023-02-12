@@ -7,7 +7,7 @@ const Login = () => {
     <div className="login">
       <h1>Нэвтрэх</h1>
       <form>
-        <label for="fname">Овог нэрээ оруулна уу</label>
+        <label>Овог нэрээ оруулна уу</label>
         <input type="text" className="loginInput" />
 
         <label >Утасны дугаараа оруулна уу</label>
