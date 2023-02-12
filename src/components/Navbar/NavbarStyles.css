@@ -76,6 +76,7 @@
 
 
 button {
+    margin-top: 1rem;
     padding: 0.5rem 1rem;
     white-space: nowrap;
     border-radius: 0.3rem;
@@ -132,9 +133,9 @@ button:hover {
         background-color:#01959a ;
         transition: none;
     }
-    button {
+    /* button {
         display: none;
-    }
+    } */
     .nav-links-mobile {
         display: block;
         text-align: center;

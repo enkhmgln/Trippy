@@ -1,0 +1,39 @@
+.login  {
+  width:50%;
+  display: inline-block;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem ;
+}
+
+label {
+  padding:1rem 0;
+  font-weight: bold;
+}
+
+.login input {
+  font-size: 1.3rem;
+  
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+
+
+@media screen and (max-width:850px) {
+  .login {
+    width:90%;
+    border: none;
+    padding: 0;  
+  
+    margin:0;
+  }
+  .login input {
+    border: 1px solid black;
+    border-radius: 2px;
+  }
+  
+  }

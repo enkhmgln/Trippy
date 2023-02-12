@@ -1,22 +1,22 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import Login from '../components/Login';
+import Signup from '../components/Signup';
 import Hero from '../components/Hero';
 import dunhiij from '../assets/dunhiij.jpg'
 
 
-export default function LoginAndSignup() {
+export default function Register() {
   return(
-    <div className="login-wrapper">
+    <div className="Register-wrapper">
       <Navbar/>
       <Hero
       cName='hero-mid'
       heroImg={dunhiij}
-      heading='Login'
+      heading='Register'
       btnClass='hide'
       />
-     <Login/>
+     <Signup/>
      <Footer/>
      
 

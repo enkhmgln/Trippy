@@ -6,7 +6,9 @@ import Service from "./routes/Service";
 import Contact from "./routes/Contact";
 import Login from './routes/Login'
 
+
 import { Route, Routes } from "react-router-dom";
+import Register from "./routes/Register";
 
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register/>} />
       </Routes>
     </div>
   );
