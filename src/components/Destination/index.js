@@ -11,17 +11,16 @@ import BaatarKhairkhan2 from '../../assets/BaatarKhairkan-2.jpeg'
 
 
 import DestinationData from "./DestinationData";
-import "./DestinationStyles.css";
 
 const Destination = () => {
   return (
-    <div className="destination">
+    <div className="my-4 mx-24 md:mx-5">
       <div className='Header'>
-      <h1>Popular destinations in Khovd</h1>
-      <p id='zail'>Tours give you the opportunity to see a lot, within a time frame. </p>
+      <h1 className='text-3xl'>Popular destinations in Khovd</h1>
+      <p className='p'>Tours give you the opportunity to see a lot, within a time frame. </p>
       </div>
       <DestinationData
-      className='first-des'
+      className='first-des '
       heading='Khar Us Lake'
       text='One of the largest lakes in Mongolia, Khar Us Lake has an area of 1,153 square kilometers, is 72 kilometers long and 26 kilometers wide, has an island in the middle, and has bamboo and reeds on the southern edge. It is a desert lake with rare animals such as reed hogs, desert steppes and desert lakes. It is a flowing lake with fresh water at an altitude of 1157 meters above sea level. Despite its large area, it is a very shallow lake, with a maximum depth of 4.4 meters and an average depth of 2 meters.'
       img1={KharUsLake}
@@ -29,8 +28,8 @@ const Destination = () => {
       />
       <DestinationData
       className='first-des-reverse'
-      heading='Tsambagarav Mountain'
-      text='Mount Tsambagarav is a snow-capped mountain with a height of 4195 meters. This mountain is in the Mongolian Altai Mountains, rich in wildlife. It is suitable for climbing and trekking programs in Tsambagarav Mountain. In the past, the highlanders called Mount Tsambagarav Tsats. An artist created the color of a human mountain, and God named it Tsambagarav, and after the snow-covered Jinst was placed on the top of the mountain, he found it and named it Tsambagarav. Oulds had 11 teams, and each team had a sacrificial mound to worship Mount Tsambaga. The fruits and plants of the sacred mountain were not touched, and a special recitation was recited if touched.'
+      heading='Mount Tsambagarav'
+      text='Mount Tsambagarav is a 4,195-meter high, snow-capped mountain. This mountain is rich in wildlife in the Mongolian Altai Mountains. Mount Tsambagarav is suitable for climbing and trekking. In the past, high mountains were called Tsambagarav mountain. An artist created the color of a human mountain, and God named him Tsambagarav, and after placing the same snowy Jinst on the top of the mountain, he named it Tsambagarav. The Oulds had 11 teams, and each team had a sacrificial mound to worship Mount Tsambaga. The fruits and plants of the sacred mountain were not touched, and special recitations were recited if touched.'
       img1={Tsambagarav}
       img2={Tsambagarav2}
       />

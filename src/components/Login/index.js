@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Button from "../General/Button";
 import "./login.css";
 
 const Login = () => {
@@ -7,19 +8,21 @@ const Login = () => {
     <div className="login">
       <h1>Нэвтрэх</h1>
       <form>
-        <label>Овог нэрээ оруулна уу</label>
-        <input type="text" className="loginInput" />
+        <label>И-Мэйл хаягаа оруулна уу</label>
+        <input type="email" className="loginInput" />
+        <label>Нууц үгээ хийнэ үү</label>
+        <input type="password" className="loginInput" />
 
-        <label >Утасны дугаараа оруулна уу</label>
-        <input type="text" className="loginInput" />
-
-        <button type="button">Нэвтрэх </button>
+        <Button text="Нэвтрэх" />
       </form>
-      
-      <span >
-          Бүртгүүлэх бол
-          <Link to="/register" className="logAndReg"> энд дарна уу</Link>
-        </span>
+
+      <span>
+        Бүртгүүлэх бол
+        <Link to="/register" className="logAndReg">
+          {" "}
+          энд дарна уу
+        </Link>
+      </span>
     </div>
   );
 };
